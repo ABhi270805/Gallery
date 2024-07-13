@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <div class="full" id="fullscreen">
+        <img src="https://i.pinimg.com/736x/90/18/2c/90182c18173ee12bd6523acaa01074bf.jpg" id="fullImg">
+        <span onclick="closeImg()">X</span>
+    </div>
+    <script>
+      var fullImgBox = document.getElementById("fullscreen");
+      var fullImg = document.getElementById("fullImg");
+      function openImage(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+      }
+      function closeImg(){
+        fullImgBox.style.display = "none";
+      }
+</script>
+ <h1>VIRAT KOHLI</h1>
+    <div class="container">
+       
+        <div class="images">
+  <img src="https://i.pinimg.com/736x/90/18/2c/90182c18173ee12bd6523acaa01074bf.jpg"  onclick="openImage(this.src)">
+  <img src="https://www.livemint.com/lm-img/img/2024/07/02/600x338/ANI-20240630172-0_1719884668176_1719884694308.jpg" onclick="openImage(this.src)">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTcurrNodMfe4wZk0Ki6uzuArr_HgtdtsCrg&s" onclick="openImage(this.src)">
+  <img src="https://media.assettype.com/freepressjournal/2023-10/93ecbab8-967c-4fb6-a07a-98a5bd339465/Virat.jpg"onclick="openImage(this.src)">
+  <img src="https://staticg.sportskeeda.com/editor/2024/05/d973a-17150616187538-1920.jpg" onclick="openImage(this.src)">
+  <img src="https://thedailyguardian.com/wp-content/uploads/2024/04/Virat-Kohli_TDG.jpg"  onclick="openImage(this.src)">
+    <img src="https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2024-06/Virat%20Kohli%20WC2024.jpg?h=7da9bb0d&itok=4O03DI-v" onclick="openImage(this.src)">
+   <img src="https://www.livemint.com/lm-img/img/2024/06/27/600x338/ANI-20240624002-0_1719486141723_1719486206566.jpg" onclick="openImage(this.src)">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxnWAGp2MiiWJKGlZdF8pvLMaiGJ0rxJRrCWwR71O5cEs7bdXFCrAFomod0P24h7RuVQU&usqp=CAU"  onclick="openImage(this.src)">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQevkSOwuTrh-01_C5XQBwtTC6xTA24hmtI-w&s"  onclick="openImage(this.src)">
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnjQ7lmtm3l3UFV_NnIwzjcBX2xS7UZUQlZA&s" onclick="openImage(this.src)">
+ </div>
+           
+        </div>
+    </div>
+ 
+</body>
+</html>
